@@ -1,0 +1,12 @@
+{
+  "name": "grid",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "init": "browser-sync init",
+    "dev":  "browser-sync start -s ./ -f index.html **/**"
+  },
+  "dependencies": {
+    "browser-sync": "^2.23.2"
+  }
+}
